@@ -17,17 +17,10 @@
     },
     "autoload": {
         "psr-4": {
-            "innln\\comm": "src"
+            "innln\\comm\\": "src"
         }
     },
     "repositories": {
-        "dev-package": {
-            "type": "path",
-            "url": "",
-            "options": {
-                "symlink": true
-            }
-        },
         "packagist": {
             "type": "composer",
             "url": "https://mirrors.aliyun.com/composer/"
