@@ -1,0 +1,36 @@
+{
+    "name": "mysticzap/innln-comm",
+    "description": "php common function and class",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhonganping",
+            "email": "mysticzap@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "innln\\comm": "src"
+        }
+    },
+    "repositories": {
+        "dev-package": {
+            "type": "path",
+            "url": "",
+            "options": {
+                "symlink": true
+            }
+        },
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
+        }
+    }
+}
