@@ -13,12 +13,16 @@
         "php": ">=7.2.0"
     },
     "require-dev": {
-
+        "phpunit/phpunit": "8.5.0",
+        "phpunit/php-invoker": "^3.1"
     },
     "autoload": {
         "psr-4": {
             "innln\\comm\\": "src"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {"innln\\comm\\": "tests"}
     },
     "repositories": {
         "packagist": {
